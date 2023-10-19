@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Arka Plan</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <style>
+    
+        .header{
+            height: 95vh;
+            background-image:linear-gradient(rgba(102,255,102,0.7),rgba(230,255,230,0.7)),url(arka%20plan.webp);
+            background-size:cover;
+            background-position: top;
+            clip-path:polygon(0 0,100% 0,100% 100%, 0 87%);
+            position:relative;
+            }
+        body{
+            margin:0;
+            padding:0;
+            font-family: 'Open Sans', sans-serif;
+        }
+        .heading{
+            text-transform: uppercase;
+            color:white;
+            position:absolute;
+            top:50%;
+            left:50%;
+            text-align: center;
+        }
+        .heading-main{
+            display: block;
+            font-size:50px;
+            letter-spacing: 15px;
+        }
+        .heading-sub{
+            display: block;
+            font-size:30px;
+            letter-spacing: 15px;
+        }
+        .logo-box{
+            position: absolute;
+            top:40px;
+            left:40px;
+        }
+        .logo{
+            height:100px;
+        }
+    </style>
+</head>
+<body>
+   
+   <header class="header">
+      <div class="logo-box">
+          <img class="logo" src="logo.png" alt="">
+      </div>
+       
+       <h1 class="heading">
+           <span class="heading-main">Main Title</span>
+           <span class="heading-sub">Sub Title</span>
+       </h1>
+       
+   </header>
+   
+</body>
+</html>
